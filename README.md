@@ -1,7 +1,7 @@
-#Game of Life with React and Electron
+# Game of Life with React and Electron
 
 
-#####How to run my app(node.js is required):
+##### How to run my app(node.js is required):
 
 ```sh
 npm install create-react-app
