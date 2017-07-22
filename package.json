@@ -2,7 +2,6 @@
   "name": "game_of_life",
   "version": "0.1.0",
    "private": true,
-   "homepage": "./public/index.html",
    "devDependencies": {
      "electron": "^1.4.14",
      "react-scripts": "0.8.5"
