@@ -1,0 +1,70 @@
+body {
+  color: white;
+  text-align: center;
+  background-color: black; }
+
+div {
+  line-height: 0px; }
+
+.square {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  border: solid black;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  border-left: none;
+  border-top: none; }
+
+.alive {
+  background-color: grey; }
+
+.dead {
+  background-color: white; }
+
+.container {
+  width: 770px;
+  height: 500px;
+  max-width: 770px;
+  max-height: 500px;
+  min-width: 700px;
+  min-height: 500px;
+  border: 1px solid black;
+  position: relative;
+  left: 10vw; }
+
+button::after {
+  border: none;
+  background-color: none;
+  outline: none; }
+
+h1 {
+  font-family: 'Shrikhand', cursive;
+  font-size: 50px;
+  margin-top: 5vh; }
+
+button {
+  font-size: 50px;
+  border-radius: 10px;
+  text-align: center;
+  outline: none;
+  border: none;
+  font-family: 'Shrikhand', cursive;
+  background-color: grey;
+  background: linear-gradient(#505050, #808080);
+  color: white; }
+
+button:active {
+  transform: translateY(2px); }
+
+button:hover {
+  cursor: pointer; }
+
+.all-btn {
+  display: flex;
+  justify-content: center;
+  margin: 2vh; }
+  .all-btn .start-btn {
+    margin-left: 2vw;
+    margin-right: 2vw; }
